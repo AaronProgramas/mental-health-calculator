@@ -122,8 +122,9 @@ hex_color = mcolors.rgb2hex(color)  # converts hex to string
 
 st.markdown(f"""
 <div style="border: 1px solid #ccc; border-radius: 10px; width: 100%; background-color: #f5f5f5; position: relative; height: 30px;">
-  <div style="background-color: {hex_color}; width: {prob_percent}%; height: 100%; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+  <div style="background-color: {hex_color}; width: {prob_percent}%; height: 100%; border-radius: 10px; text-align: center; color: black; font-weight: bold;">
     {prob_percent}%
   </div>
 </div>
 """, unsafe_allow_html=True)
+
